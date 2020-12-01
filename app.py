@@ -661,6 +661,8 @@ def snv(input_data):
     return output_data
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+server = app.server
+app.title=tabtitle
 app.config['suppress_callback_exceptions'] = True
 app.layout = html.Div([sidebar_menu, content])
 
@@ -1123,4 +1125,4 @@ def update_graph(wl_chosen):
     return 'You have selected the range: {} - {} cm-1'.format(wl_chosen[0], wl_chosen[1]),
 
 if __name__ == '__main__':
-    app.run_server(debug=True, dev_tools_ui=False, dev_tools_props_check=False, threaded=True, port=10450)
+    app.run_server(dev_tools_ui=False, dev_tools_props_check=False, threaded=True)
