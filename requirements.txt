@@ -1,12 +1,10 @@
 chardet==3.0.4
-Click==7.0
 dask==2.1.0
 decorator==4.4.0
 gunicorn==19.9.0
 html5lib==1.0.1
 idna==2.8
 ipython-genutils==0.2.0
-Jinja2==2.10.1
 jupyter-core==4.5.0
 MarkupSafe==1.1.1
 nbformat==4.4.0
