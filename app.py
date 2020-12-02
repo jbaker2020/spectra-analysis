@@ -7,10 +7,10 @@ import dash_core_components as dcc
 import dash_html_components as html
 import dash_bootstrap_components as dbc
 import plotly.express as px
-#import plotly.graph_objs as go
+import plotly.graph_objs as go
 import pandas as pd
 import numpy as np
-import plotly.graph_objects as go
+#import plotly.graph_objects as go
 from scipy.signal import savgol_filter  # derivative filters
 from sklearn.decomposition import PCA  # PCA from SK Learn
 from sklearn.preprocessing import StandardScaler  # Scaling Data Sets
