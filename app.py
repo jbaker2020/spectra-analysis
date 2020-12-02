@@ -21,7 +21,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 import statsmodels.api as sm
 from BaselineRemoval import BaselineRemoval
 
-external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
+external_stylesheets = [dbc.themes.BOOTSTRAP]
 
 
 
