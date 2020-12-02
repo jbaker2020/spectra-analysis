@@ -49,3 +49,4 @@ scipy==1.5.2
 seaborn==0.11.0	
 setuptools==40.8.0	
 six==1.15.0	
+statsmodels==0.12.0
