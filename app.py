@@ -1125,4 +1125,4 @@ def update_graph(wl_chosen):
     return 'You have selected the range: {} - {} cm-1'.format(wl_chosen[0], wl_chosen[1]),
 
 if __name__ == '__main__':
-    app.run_server(dev_tools_ui=False, dev_tools_props_check=False, threaded=True)
+    app.run_server()
