@@ -662,8 +662,8 @@ def snv(input_data):
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
-app.title=tabtitle
-app.config['suppress_callback_exceptions'] = True
+#app.title=tabtitle
+#app.config['suppress_callback_exceptions'] = True
 app.layout = html.Div([sidebar_menu, content])
 
 #loading in and parsng data from excel
